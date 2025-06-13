@@ -29,7 +29,7 @@ for guess in range(max_g):
         elif a < n:
             print("Too low! Try a higher number")
         else:
-            print(f"\n🎉 Congratulations! You guessed the number {n} in {guess + 1} attempts")
+            print(f"Congratulations! You guessed the number {n} in {guess + 1} attempts")
             break
     except ValueError:
         print("Invalid input. Please enter a valid integer")
